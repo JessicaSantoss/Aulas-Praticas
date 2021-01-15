@@ -9,57 +9,331 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <style>
+        .bg-color {
+            background-color: #000000;
+        }
+        
+        .tm-social {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .p-30 {
+            padding: 30px;
+        }
+        
+        .wh-300 {
+            width: 350px;
+            height: 250px;
+        }
+        
+        .p-15 {
+            padding: 15px;
+        }
+        
+        .justify {
+            text-align: justify;
+        }
+        
+        .mb-50 {
+            margin-bottom: 50px;
+        }
+        
+        .ml-50px {
+            margin-left: 50px;
+        }
+        
+        .br-50 {
+            border-radius: 50%;
+        }
+    </style>
     <title>Hogwarts</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <a class="navbar-brand text-light" href="#">Jess</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
+    <nav class=" navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand text-light " href="# ">Hogwarts</a>
+        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#conteudoNavbarSuportado " aria-controls="conteudoNavbarSuportado " aria-expanded="false " aria-label="Alterna navegação ">
+          <span class="navbar-toggler-icon "></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link text-light" href="#"> Home <span class="sr-only">(página atual)</span></a>
+        <div class="collapse navbar-collapse " id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item active ">
+                    <a class="nav-link text-light " href="# "> Home <span class="sr-only ">(página atual)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="">Gryffindor</a>
+                <li class="nav-item ">
+                    <a class="nav-link text-light " href="#Hog">História</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="">Hufflepuff</a>
+                <li class="nav-item ">
+                    <a class="nav-link text-light " href="#Grifinória">Grifinória</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="">Ravenclaw</a>
+                <li class="nav-item ">
+                    <a class="nav-link text-light " href="#Lufa">Lufa-Lufa</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="">Slytherin</a>
+                <li class="nav-item ">
+                    <a class="nav-link text-light " href="#Corvinal">Corvinal</a>
                 </li>
-                <div class="btn-group">
-                    <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Redes Sociais
-                    </button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="https://www.facebook.com/JeCristiane" target="_blank">Facebook</a>
-                        <a class="dropdown-item" href="https://www.instagram.com/jehsantox/" target="_blank">Instagram</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://www.linkedin.com/in/jéssica-s-615241115" target="_blank">Linkedin</a>
-                    </div>
-                </div>
+                <li class="nav-item ">
+                    <a class="nav-link text-light " href="#Sonserina">Sonserina</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light " href="#Contos">Contos</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-light " href="#Contato">Fale conosco</a>
+                </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            <form class="form-inline my-2 my-lg-0 ">
+                <input class="form-control mr-sm-2 " type="search " placeholder="Pesquisar " aria-label="Pesquisar ">
+                <button class="btn btn-outline-light my-2 my-sm-0 " type="submit ">Pesquisar</button>
             </form>
         </div>
     </nav>
 
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://i.pinimg.com/originals/8a/cb/6a/8acb6a0930ca8d881e5be78c469da0d1.jpg" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://i.pinimg.com/originals/0c/e8/9d/0ce89d0c6fa6604d8967097839892077.png" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://www.xtrafondos.com/en/descargar.php?id=3544&resolucion=1280x720" alt="Terceiro Slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/51e36e308e33ab2c81a237dc3e876159.jpg" alt="Quarto Slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid bg-transparent ">
+        <div class=" container ">
+            <h1 id="Hog" class="display-4 ">A Escola de Magia e Bruxaria de Hogwarts</h1>
+            <p class="lead ">Hogwarts foi fundada por volta de 993 d.C. por dois bruxos, Godric Grifnória e Salazar Sonserina, e duas bruxas, Helga Lufa-Lufa e Rowena Ravenclaw. Cada um deles continha um aspecto de personalidade que queriam nos novos alunos. No entanto,
+                pouco depois da escola ser fundada, Sonserina discutiu com os outros fundadores a respeito da pureza de sangue. Sonserina quis admitir apenas os alunos de puro sangue, enquanto os outros três fundadores discordaram. Sonserina deixou a
+                escola logo depois de construir em segredo a Câmara Secreta. Quando seu verdadeiro herdeiro, o Herdeiro de Sonserina , voltasse à escola, ele ou ela seria capaz de abrir a Câmara e libertar o monstro que lá havia em função de purificar
+                a escola de todos os alunos Nascidos-trouxas.</p>
+        </div>
+    </div>
+
+
+    <div class=" container ">
+        <div class="card-group ">
+            <div class="card ">
+                <img class="card-img-top " src="assets/img/53450bf61e97c0bf8cd82d17612911c5d2786706_00.jpg " alt="Imagem da plataforma 9 3/4, lugar do expresso de Hogwarts ">
+                <div class="card-body ">
+                    <h5 class="card-title ">Expresso de Hogwarts</h5>
+                    <p class="card-text ">O Expresso de Hogwarts é o nome do trem que faz a viagem entre Londres, Estação King's Cross Plataforma Nove e Três Quartos e Estação de Hogsmeade. O trem sai da Plataforma 9¾ sem falhas em 1 de Setembro, às 11 horas da manhã, chegando
+                        a Estação de Hogsmeade no início da noite. Originalmente montado a vapor pelos trouxas que o construíram, o Expresso de Hogwarts agora funciona exclusivamente com magia.</p>
+                    <p class="card-text "><small class="text-muted ">"Uma solução ousada e controversa para o problema espinhoso finalmente foi sugerida pela Ministra da Magia Ottaline Gambol, que ficou muito intrigado com invenções trouxas e viu o
+    potencial nos trens. " —Como o Expresso de Hogwarts chegou a ser utilizado</small></p>
+                </div>
+            </div>
+            <div class="card ">
+                <img class="card-img-top " src="assets/img/1633ae0fa7d51189de7b9aed8d73b89467aabf1b_hq.png " alt="Imagem externa do Castelo de Hogwarts ">
+                <div class="card-body ">
+                    <h5 class="card-title ">Castelo de Hogwarts</h5>
+                    <p class="card-text ">O Castelo de Hogwarts é um castelo mágico. Possui muitas torres e torreões, e foi construído há cerca de mil anos atrás por um arquiteto bruxo. Ele abriga a Escola de Magia e Bruxaria de Hogwarts. Se algum trouxa se aproximar do castelo,
+                        só veria um local em ruínas com um aviso de perigo. Também é protegido por vários feitiços antigos e encantamentos para proteger seus habitantes, fortes o suficiente para resistir o efeitos do tabu. </p>
+                    <p class="card-text "><small class="text-muted ">"O castelo é uma fortaleza de magia antiga. " — Alvo Dumbledore</small></p>
+                </div>
+            </div>
+            <div class="card ">
+                <img class="card-img-top " src="assets/img/659902437f4fe48ea9ffca29e41e4db7.png " alt="Imagem Brasão de Hogwarts ">
+                <div class="card-body ">
+                    <h5 class="card-title ">Brasão de Hogwarts</h5>
+                    <p class="card-text ">O brasão de Hogwarts é formado por quatro animais e uma grande letra “H” no meio deles. Embaixo, uma faixa, com os dizeres: “Draco Dormiens Nunquan Titillandus”, que significa algo como “Nunca Cutuque um Dragão Adormecido”. Os animais
+                        encontrados no brasão são um leão, representando a Grifinória, uma cobra, representando a Sonserina, um texugo, representando a Lufa-Lufa e um corvo, representando a Corvinal. E no meio, o grande “H” de Hogwarts, unindo as quatro
+                        casas, além das características dos alunos, eles incorporam os quatro elementos: fogo, água, terra e ar.
+                    </p>
+                    <p class="card-text "><small class="text-muted ">"O lema sugere que no caso de encontrar um perigo pela frente, não parta para a provocação. "</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+    <h2 id="Grifinória" class="text-center">Grifinória</h2>
+    <div class="container ">
+        <div>
+
+            <img class="rounded float-left wh-300 p-15 " src="assets/img/g.jpg " alt="Imagem da bandeira da Grifinória " />
+
+        </div>
+        <div class="p-30 ">
+            <p class="justify ">
+                Godric Grifinória levou à então nova escola uma maneira igualitária de dividir os alunos. Em uma sociedade bruxa, na qual se dividiam os pró trouxas, os contra e os “esnobes” puro sangue, o maior legado de Grifinória foi o Chapéu Seletor. O objetivo do
+                artefato era favorecer as virtudes de coragem e heroísmo. Os quatro fundadores o encantaram com suas personalidades para que as seleções fossem feitas depois de suas mortes. O bruxo também era o maior duelista de seu tempo, tanto com a
+                varinha quanto com a espada que leva seu nome.</p>
+            <p class="text-center font-italic ">“…Quem sabe sua morada é Grifinória, Casa onde habitam os corações indômitos. Ousadia e sangue-frio e nobreza Destacam-se os alunos da Grifinória dos demais…”</p>
+        </div>
+    </div>
+
+    <h2 id="Lufa" class="text-center ">Lufa-Lufa</h2>
+    <div class="container ">
+        <div>
+
+            <img class="rounded float-left wh-300 p-15 " src="assets/img/Luf.jpg " alt="Imagem da bandeira de Lufa-Lufa " />
+
+        </div>
+        <div class="p-30 ">
+            <p class="justify ">
+                Helga Lufa-Lufa criou a maioria das receitas servidas na escola até hoje, e ela era especialista em encantos feitos em alimentos. Hufflepuff era muito compassiva e dona de uma personalidade muito amorosa. Ela trouxe seres de diversos ramos da magia para
+                trabalharem na escola, e é a responsável por transformar Hogwarts em santuário para os elfos domésticos, que são os trabalhadores da escola até hoje. Ela brindava com seus alunos usando um cálice de ouro, sua marca registrada.</p>
+            <p class="text-center font-italic ">“Quem sabe é na Lufa-Lufa que você vai morar, Onde seus moradores são justos e leais Pacientes, sinceros, sem medo da dor…”</p>
+        </div>
+    </div>
+
+    <h2 id="Corvinal" class=" text-center ">Corvinal</h2>
+    <div class="container ">
+        <div>
+
+            <img class="rounded float-left wh-300 p-15 " src="assets/img/C.png " alt="Imagem da bandeira de Corvinal " />
+
+        </div>
+        <div class="p-30 ">
+            <p class="justify ">
+                Rowena Corvinal era praticamente uma super estrela da bruxaria. Sua inteligência e sagacidade eram mundialmente reconhecidas. Sua casa prioriza a sabedoria. Rowena usava um diadema encantado, que teria o objetivo de aumentar a sabedoria de quem o usasse.</p>
+            <p class="text-center font-italic ">“Ou será a velha e sábia Corvinal, A casa dos que têm a mente sempre alerta, Onde os homens de grande espírito e saber Sempre encontrarão companheiros seus iguais..”</p>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <h2 id="Sonserina" class="text-center ">Sonserina</h2>
+    <div class="container ">
+        <div>
+
+            <img class="rounded float-left wh-300 p-15 " src="assets/img/S.jpg " alt="Imagem da bandeira de Sonserina " />
+
+        </div>
+        <div class="p-30 ">
+            <p class="justify ">
+                Salazar Sonserina se afastou da escola por sua visão preconceituosa, mas era um bruxo extremamente respeitado por suas habilidades. Especialista em leitura de mentes e naturalmente capaz de compreender a língua das cobras, também criava feitiços restauradores.
+                Antes de deixar Hogwarts depois do duelo com Grifinória, no entanto, ele construiu a Câmara dos Segredos, sem o conhecimento dos outros três fundadores. O objetivo era “purificar” a escola de mestiços ou nascidos trouxas, através da cobra
+                enfeitiçada que lá se escondia. A Câmara foi aberta por Tom Riddle, que se tornou Voldemort.</p>
+            <p class="text-center font-italic ">“Ou quem sabe a Sonserina será a sua casa E ali fará seus verdadeiros amigos, Homens de astúcia que usam quaisquer meios Para atingir os fins que antes colimaram”</p>
+        </div>
+    </div>
+
+    <h3 id="Contos" class="text-center ">O Conto dos três irmãos</h3>
+    <div class="container ">
+        <div class="row mt-5 mb-5 ">
+            <div class="col-md-6 ">
+
+                <p>Segundo Beedle, o Bardo, as Relíquias da Morte teriam sido um presente da Morte para três irmãos bruxos, por sua perícia em magia. Duas dessas maravilhas fariam seu possuidor aparentemente o mais poderoso bruxo do mundo, tanto por seu
+                    apelo combativo ou por sua habilidade de reverter a morte de alguém; a capa, no entanto, quase sempre é desprezada por sua aparente inutilidacu Através dos séculos, apenas a Varinha das Varinhas teve uma história relativamente conhecida,
+                    uma vez que quase sempre pertenceu a algum bruxo das trevas que se gabava de ser o mais poderoso do mundo. A Pedra da Ressurreição e a Capa da Invisibilidade nunca foram encontradas, talvez por seus possuidores não conhecerem sua história
+                    ou serem prudentes demais para alardear sua posse. Acredita-se, entre os bruxos mais esclarecidos, que a Morte não criou realmente as Relíquias, mas que foram criadas pelos irmãos Peverell, um trio de bruxos extraordinariamente talentosos,
+                    que usaram todo seu talento para produzir a varinha mais mortal, um meio de reverter a morte, e um modo de se esconder da mesma.</p>
+            </div>
+            <div class="col-md-6 ">
+                <iframe width="560 " height="440 " src="https://www.youtube.com/embed/aJSh1zkPEvc " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--Formulário de contato-->
+
+    <div class="row mb-5">
+        <div class="col-md-12">
+            <h4 id="Contato" class="text-center">
+                Entre em contato com a gente
+            </h4>
+        </div>
+    </div>
+
+    <div class="row d-flex align-items-center">
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Endereço de email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="form-group d-flex justify-content-end">
+                    <button class="btn btn-outline-success">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr"
+                width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!--/Formulário de contato-->
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <hr>
+    <footer>
+
+        <div class="row mb-3 ">
+            <div class="col-md-12 d-flex justify-content-center ">
+                <a href="https://www.facebook.com/JeCristiane " target="_blank " class="p-1 ">
+                    <img class="tm-social p-15 " src="assets/img/facebook.png " alt="Logo do Facebook ">
+                </a>
+                <a href="https://www.instagram.com/jehsantox/ " target="_blank " class="p-1 ">
+                    <img class="tm-social p-15 " src="assets/img/instagram.png " alt="Logo do Instagram ">
+                </a>
+                <a href="https://www.linkedin.com/in/jéssica-s-615241115 " target="_blank " class="p-1 ">
+                    <img class="tm-social p-15 " src="assets/img/linkedin.png " alt="Logo do Linkedin ">
+                </a>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-md-12 ">
+                <p class="text-center ">
+                    Todos os direitos reservados para Jéssica Santos &copy </p>
+            </div>
+        </div>
+
+    </footer>
+
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js " integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js " integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy " crossorigin="anonymous "></script>
 </body>
 
 </html>
